@@ -1,4 +1,4 @@
-from PyQt5.Qt import Qt
+from PyQt5.Qt import Qt #.
 from PyQt5.QtWidgets import QWidget, QPushButton, QLabel, QRadioButton, QSpinBox, QHBoxLayout, QVBoxLayout, QGroupBox, QButtonGroup
 
 main_window = QWidget() # створення вікна
@@ -72,4 +72,4 @@ main_line.addLayout(line2, stretch=4)
 main_line.addWidget(btn_answer)
 main_line.addStretch(1)
 
-main_window.setLayout(main_line)
+main_window.setLayout(main_line) 
